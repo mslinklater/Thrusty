@@ -1,0 +1,3 @@
+/// @description
+
+thrustActive = 0;

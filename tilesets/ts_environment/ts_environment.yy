@@ -14,7 +14,7 @@
             
         ]
     },
-    "out_columns": 8,
+    "out_columns": 7,
     "out_tilehborder": 2,
     "out_tilevborder": 2,
     "spriteId": "13d0be25-79f5-469c-a69d-42acd739701f",
@@ -98,7 +98,7 @@
     "tileheight": 8,
     "tilehsep": 0,
     "tilevsep": 0,
-    "tilewidth": 8,
+    "tilewidth": 16,
     "tilexoff": 0,
     "tileyoff": 0
 }

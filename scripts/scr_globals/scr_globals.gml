@@ -14,7 +14,8 @@ enum eTileMapCells
 	envBR,
 	envTL,
 	envTR,
-	envFull
+	envFull,
+	envBorder
 }
 #macro kTileMapEnvClear 0
 #macro kTileMapEnvBL 1

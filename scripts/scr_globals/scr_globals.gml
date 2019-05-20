@@ -15,12 +15,12 @@ enum eTileMapCells
 	envTL,
 	envTR,
 	envFull,
-	envBorder
+	envBorder,
+	envExit
 }
-#macro kTileMapEnvClear 0
-#macro kTileMapEnvBL 1
-#macro kTileMapEnvBR 2
-#macro kTileMapEnvTL 3
-#macro kTileMapEnvTR 4
-#macro kTileMapEnvFull 5
+#endregion
+
+#region Map
+#macro kDefaultMapWidth 50
+#macro kDefaultMapHeight 50
 #endregion

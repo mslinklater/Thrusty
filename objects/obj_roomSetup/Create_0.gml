@@ -31,6 +31,7 @@ for(var xpos = 0 ; xpos < w ; xpos++)
 				instance_create_layer(xpos*tileSizeX, ypos*tileSizeY, "Instances", obj_env_wall_tr);
 			break;
 			case eTileMapCells.envFull:
+			case eTileMapCells.envBorder:
 				instance_create_layer(xpos*tileSizeX, ypos*tileSizeY, "Instances", obj_env_wall_full);
 			break;
 		}

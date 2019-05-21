@@ -98,7 +98,7 @@
             "Key": "245b7d51-5095-45aa-917b-90504780edfe",
             "Value": {
                 "id": "407e8ec4-aad5-4a5f-9389-628356c7753d",
-                "resourcePath": "scripts\\scr_setEnvData\\scr_setEnvData.yy",
+                "resourcePath": "scripts\\scr_setEnvTile\\scr_setEnvTile.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -106,7 +106,7 @@
             "Key": "2bd75679-8cee-40d3-904a-f568c2604dc0",
             "Value": {
                 "id": "118d2e3e-00b7-412f-b2c4-b9945cf8e99e",
-                "resourcePath": "scripts\\scr_getEnvData\\scr_getEnvData.yy",
+                "resourcePath": "scripts\\scr_getEnvTile\\scr_getEnvTile.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -276,6 +276,14 @@
                 "id": "4819e60f-eb10-4cf3-9e31-e7a35ab6f16e",
                 "resourcePath": "rooms\\rm_testlevel\\rm_testlevel.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "8ff4e832-8a7d-4fa1-a868-b13295a57a4f",
+            "Value": {
+                "id": "fc07b741-4917-4d8e-b115-1c81fdb85d23",
+                "resourcePath": "scripts\\scr_setTilemapFromCurrentMap\\scr_setTilemapFromCurrentMap.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -517,7 +525,8 @@
         "328c2df6-78e5-4b49-a9c1-03f91b03e608",
         "dc3396fe-17ac-4283-b9dc-f674f3c1b92b",
         "245b7d51-5095-45aa-917b-90504780edfe",
-        "2bd75679-8cee-40d3-904a-f568c2604dc0"
+        "2bd75679-8cee-40d3-904a-f568c2604dc0",
+        "8ff4e832-8a7d-4fa1-a868-b13295a57a4f"
     ],
     "tutorial": ""
 }

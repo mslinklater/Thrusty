@@ -30,11 +30,11 @@ ds_map_add_list(global.currentMap, "envGrid", rowsList);
 // set the env grid borders
 for(var xx=0 ; xx<_width ; xx++)
 {
-	scr_setEnvData(xx, 0, eTileMapCells.envExit);
-	scr_setEnvData(xx, _height-1, eTileMapCells.envBorder);
+	scr_setEnvTile(xx, 0, eTileMapCells.envExit);
+	scr_setEnvTile(xx, _height-1, eTileMapCells.envBorder);
 }
 for(var yy=0 ; yy<_height ; yy++)
 {
-	scr_setEnvData(0, yy, eTileMapCells.envBorder);
-	scr_setEnvData(_width-1, yy, eTileMapCells.envBorder);
+	scr_setEnvTile(0, yy, eTileMapCells.envBorder);
+	scr_setEnvTile(_width-1, yy, eTileMapCells.envBorder);
 }

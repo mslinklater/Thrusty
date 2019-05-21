@@ -1,7 +1,13 @@
 /// @description
 
-var _layerId = layer_get_id("Environment");
-envTilemapId = layer_tilemap_get_id(_layerId);
+scr_setTilemapFromCurrentMap("Environment");
+
+//var _layerId = layer_get_id("Environment");
+//envTilemapId = layer_tilemap_get_id(_layerId);
+
+
+
+/*
 numCellsWidth = tilemap_get_width(envTilemapId);
 numCellsHeight = tilemap_get_height(envTilemapId);
 
@@ -19,3 +25,4 @@ for(var _y=0 ; _y<numCellsHeight ; _y++)
 	tilemap_set(envTilemapId, eTileMapCells.envBorder, 0, numCellsWidth-1);
 }
 #endregion
+*/

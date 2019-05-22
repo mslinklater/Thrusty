@@ -19,7 +19,8 @@ for(var iRow = 0 ; iRow < height ; iRow++)
 	var rowList = rowsList[| iRow];
 	for(var iCol = 0 ; iCol < width ; iCol++)
 	{
-		if (!tilemap_set(tilemap, iCol, iRow, rowList[| iCol]))
+		var value = rowList[| iCol];
+		if (!tilemap_set(tilemap, value, iCol, iRow))
 		{
 			var error=0;
 		}

@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "a0f9ab40-3c99-4ee8-a38b-b0823cc02798",
+            "Value": {
+                "id": "a7421b26-06c0-4bb7-a65d-2a6815bb2ac0",
+                "resourcePath": "objects\\obj_userSettingsManager\\obj_userSettingsManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a3f235be-6467-447d-80c7-b6e987e724b9",
             "Value": {
                 "id": "34457b76-07ec-4f3d-9fa9-4e113841f52c",
@@ -332,6 +340,14 @@
                 "id": "82c7ff3c-ddb8-4e07-bab0-c33a8496664d",
                 "resourcePath": "views\\be620f3b-cd94-47ee-ad19-f1b561d73461.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bee83747-dfbf-4f15-9250-c7a9f6bb836a",
+            "Value": {
+                "id": "845fc10f-5b64-4868-8fd3-db670377b5a4",
+                "resourcePath": "scripts\\scr_setGlobalViewports\\scr_setGlobalViewports.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -412,6 +428,14 @@
                 "id": "3cb3c393-268d-4f2d-a94e-b3968f3c93d0",
                 "resourcePath": "views\\cf9b1deb-2dbc-46aa-b4e8-826e15bfcad1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d1db9236-fc82-4335-af39-36d19b8dc5ca",
+            "Value": {
+                "id": "4718a90d-db72-4cfb-bf0f-30c7d2eda926",
+                "resourcePath": "objects\\obj_play_room_controller\\obj_play_room_controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -526,7 +550,8 @@
         "dc3396fe-17ac-4283-b9dc-f674f3c1b92b",
         "245b7d51-5095-45aa-917b-90504780edfe",
         "2bd75679-8cee-40d3-904a-f568c2604dc0",
-        "8ff4e832-8a7d-4fa1-a868-b13295a57a4f"
+        "8ff4e832-8a7d-4fa1-a868-b13295a57a4f",
+        "bee83747-dfbf-4f15-9250-c7a9f6bb836a"
     ],
     "tutorial": ""
 }

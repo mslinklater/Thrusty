@@ -6,8 +6,16 @@
 #macro kPlayerRotationSpeed 5
 #macro kPlayerThrust -5
 
-#macro kDefaultWindowSize 960
-#macro kDefaultWindowSize 600
+#region Files
+#macro kSettingsFilename working_directory + "settings.ini"
+#endregion
+
+#region Camera, Window & Viewport
+#macro kDefaultWindowWidth 960
+#macro kDefaultWindowHeight 600
+#macro kDefaultCameraWidth 320
+#macro kDefaultCameraHeight 200
+#endregion
 
 #region Tilemap
 enum eTileMapCells

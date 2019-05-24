@@ -2,20 +2,14 @@
 
 ini_open(kSettingsFilename);
 
-// fullscreen
-window_set_fullscreen(ini_read_real(kSectionDisplay, kKeyFullscreen, 0) != 0);
-
-// if not fullscreen...
-if(!window_get_fullscreen())
-{
-	// set the window size
-	var windowWidth = ini_read_real(kSectionDisplay, kKeyWindowWidth, 960);
-	var windowHeight = ini_read_real(kSectionDisplay, kKeyWindowHeight, 600);
-	window_set_size(windowWidth, windowHeight);
+// set the window size
+global.windowWidth = ini_read_real(kSectionDisplay, kKeyWindowWidth, 960);
+global.windowHeight = ini_read_real(kSectionDisplay, kKeyWindowHeight, 600);
+window_set_size(global.windowWidth, global.windowHeight);
 	
-	// and position
-	var windowXPos = ini_read_real(kSectionDisplay, kKeyWindowXPos, 10);
-	var windowYPos = ini_read_real(kSectionDisplay, kKeyWindowYPos, 10);
-	window_set_position(windowXPos, windowYPos);
-}
+// and position
+global.windowXPos = ini_read_real(kSectionDisplay, kKeyWindowXPos, 10);
+global.windowYPos = ini_read_real(kSectionDisplay, kKeyWindowYPos, 10);
+window_set_position(global.windowXPos, global.windowYPos);
 
+ini_close();

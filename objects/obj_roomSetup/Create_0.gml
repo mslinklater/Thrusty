@@ -5,15 +5,15 @@
 // Get the tilemap dimensions
 var layerID = layer_get_id("Environment");
 var tmID = layer_tilemap_get_id(layerID);
-var w = tilemap_get_width(tmID);
-var h = tilemap_get_height(tmID);
+var width = tilemap_get_width(tmID);
+var height = tilemap_get_height(tmID);
 var tileSizeX = tilemap_get_tile_width(tmID);
 var tileSizeY = tilemap_get_tile_height(tmID);
 
 // Iterate over them and find occupied tiles that are neighbors with unoccupied tiles
-for(var xpos = 0 ; xpos < w ; xpos++)
+for(var xpos = 0 ; xpos < width ; xpos++)
 {
-	for(var ypos = 0 ; ypos < h ; ypos++)
+	for(var ypos = 0 ; ypos < height ; ypos++)
 	{     
 		var cellId = tilemap_get(tmID, xpos, ypos);
 		switch(cellId)

@@ -12,4 +12,7 @@ global.windowXPos = ini_read_real(kSectionDisplay, kKeyWindowXPos, 10);
 global.windowYPos = ini_read_real(kSectionDisplay, kKeyWindowYPos, 10);
 window_set_position(global.windowXPos, global.windowYPos);
 
+// edit map
+global.showEditMap = ini_read_real(kSectionDisplay, kShowEditMap, 0);
+
 ini_close();

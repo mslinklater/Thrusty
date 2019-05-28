@@ -27,7 +27,7 @@ mainViewportCamera = view_get_camera(kMainViewport);
 camera_set_view_pos(mainViewportCamera, 0, 0);
 camera_set_view_size(mainViewportCamera, kDefaultCameraWidth, kDefaultCameraHeight);
 
-view_set_visible(kMapViewport, true);
+view_set_visible(kMapViewport, (global.showEditMap == 1));
 view_set_wport(kMapViewport, 160);
 view_set_hport(kMapViewport, 100);
 view_set_xport(kMapViewport, 0);

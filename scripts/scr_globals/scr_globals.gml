@@ -29,6 +29,21 @@ enum eTileMapCells
 	envBorder,
 	envExit
 }
+enum eTileBlueprintGrid
+{
+	clear1 = 0,
+	clear2,
+	clear3,
+	topleft,
+	top,
+	topright,
+	left,
+	middle,
+	right,
+	bottomleft,
+	bottom,
+	bottomright
+}
 #endregion
 
 #region Map

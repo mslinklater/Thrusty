@@ -2,6 +2,7 @@
 
 // load the map
 scr_setTilemapFromCurrentMap("Environment");
+scr_setBlueprintGrid("Grid");
 
 zoomLevel = 1;
 focusX = kDefaultCameraWidth/2;

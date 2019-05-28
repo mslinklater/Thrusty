@@ -2,7 +2,7 @@
     "id": "13d0be25-79f5-469c-a69d-42acd739701f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spt_tm_environment",
+    "name": "spr_tm_environment",
     "For3D": false,
     "HTile": false,
     "VTile": false,

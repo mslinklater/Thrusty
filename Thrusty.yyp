@@ -66,7 +66,7 @@
             "Key": "13d0be25-79f5-469c-a69d-42acd739701f",
             "Value": {
                 "id": "e74b3699-680e-4f75-97b2-0358be2ec39f",
-                "resourcePath": "sprites\\spt_tm_environment\\spt_tm_environment.yy",
+                "resourcePath": "sprites\\spr_tm_environment\\spr_tm_environment.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -107,6 +107,14 @@
             "Value": {
                 "id": "407e8ec4-aad5-4a5f-9389-628356c7753d",
                 "resourcePath": "scripts\\scr_setEnvTile\\scr_setEnvTile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "29a7fccd-5b80-40fe-803c-916032ebd448",
+            "Value": {
+                "id": "cc558fc0-abda-4ec8-991c-2fe10dd66ba0",
+                "resourcePath": "scripts\\scr_setBlueprintGrid\\scr_setBlueprintGrid.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "8bd741b9-7fb1-4003-8f8c-301f0fd94a09",
+            "Value": {
+                "id": "288b086b-abce-4d94-9a69-fc1fc54e2349",
+                "resourcePath": "sprites\\spr_tm_blueprintgrid\\spr_tm_blueprintgrid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ff4e832-8a7d-4fa1-a868-b13295a57a4f",
             "Value": {
                 "id": "fc07b741-4917-4d8e-b115-1c81fdb85d23",
@@ -388,6 +404,14 @@
                 "id": "afa7c7b8-828d-4b4a-aab4-44d1ee4d6bd4",
                 "resourcePath": "views\\c474a715-269b-488c-8eb3-f73dc50fdc00.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c51127a8-ec29-4acc-abe1-ab422a11eb37",
+            "Value": {
+                "id": "ffe9a793-9f36-482c-878f-b85c5c48645b",
+                "resourcePath": "tilesets\\ts_blueprintgrid\\ts_blueprintgrid.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -575,6 +599,7 @@
         "245b7d51-5095-45aa-917b-90504780edfe",
         "2bd75679-8cee-40d3-904a-f568c2604dc0",
         "8ff4e832-8a7d-4fa1-a868-b13295a57a4f",
+        "29a7fccd-5b80-40fe-803c-916032ebd448",
         "bee83747-dfbf-4f15-9250-c7a9f6bb836a"
     ],
     "tutorial": ""

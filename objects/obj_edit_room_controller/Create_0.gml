@@ -1,4 +1,5 @@
 /// @description
+show_debug_message("obj_edit_room_controller:Create");
 
 // load the map
 scr_setTilemapFromCurrentMap("Environment");

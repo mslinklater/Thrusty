@@ -1,4 +1,5 @@
 /// @description serialise the current map to JSON file
+/// The current map is held in the global.currentMap data structure
 /// @param filename
 
 var _filename = argument0;

@@ -1,0 +1,5 @@
+The current map is held in a data structure in the globals area. What is being drawn on screen isn't actually the real map... it is just a graphical representation. For all queries, reading and writing you should modify the data structure and then update the relevant tilemaps.
+
+The structure is like this:
+
+globals.currentMap (ds_map)
